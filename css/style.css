@@ -29,7 +29,7 @@ h3 {
 	margin-top:0px;
 	font-family: 'Lato', sans-serif;
     font-weight: 300; 
-    color:#EF6EA3;
+    color:#ef6ea3;
 }
 
 p {
@@ -52,9 +52,9 @@ hr:after {
     background: white;
     display: inline-block;
     position: relative; 
-    top: -0.7em;  
+    top: -.7em;  
     font-size: 1.5em;
-    padding: 0 0.25em;
+    padding: 0 .25em;
    
 }
 
