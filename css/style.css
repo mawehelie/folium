@@ -1,3 +1,5 @@
+
+/* Apply this font to all the content in the page */
 body {
 
     background: white;
@@ -5,58 +7,76 @@ body {
 
 }
 
+/* Media Query for Mobile Phones */
+@media screen and (max-width: 640px) {
+
+    .bounceIn{
+
+        width: 100%;
+        font-size: 38px;  
+        text-align: center; 
+    }
+
+    .first, .second, .third{
+
+        width: 100%; 
+
+    }
+}
+
+/* Header */
 .header {
 
     margin-bottom: 5px; 
 }
 
-h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 100; 
-    font-size: 50px; 
+        h1 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 100; 
+        font-size: 50px; 
      
-}
+        }
 
-h2 {
-    font-family: 'Lato', sans-serif; 
-    font-weight: 300; 
-    color: #e74c3c; 
-}
+        h2 {
+        font-family: 'Lato', sans-serif; 
+        font-weight: 300; 
+        color: #e74c3c; 
+        }
 
 
 h3 {
 
-	margin-top:0px;
+	margin-top:0;
 	font-family: 'Lato', sans-serif;
     font-weight: 300; 
-    color:#ef6ea3;
+    color:#f5081a; 
 }
 
-p {
-    font-family: Lucida Grande; 
-    color: gray;
-}
+        p {
+        font-family: Lucida Grande; 
+        color: gray;
+        }
 
 
-hr{
-	width: 100%; 
-    margin-top: 0;
-	border: none;
-    padding: 0;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
-}
-hr:after {
-    content: "⌘";
-    background: white;
-    display: inline-block;
-    position: relative; 
-    top: -.7em;  
-    font-size: 1.5em;
-    padding: 0 .25em;
+        hr{
+	       width: 100%; 
+           margin-top: 0;
+	       border: none;
+           padding: 0;
+           border-top: medium double #333;
+           color: #333;
+           text-align: center;
+            }
+        hr:after {
+            content: "⌘";
+            background: white;
+            display: inline-block;
+            position: relative; 
+            top: -.7em;  
+            font-size: 1.5em;
+            padding: 0 .25em;
    
-}
+            }
 
 footer {
 
