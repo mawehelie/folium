@@ -12,9 +12,6 @@
   <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
   <script src="http://code.jquery.com/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  
-
-
 </head>
 <body>
  <div class="container">
@@ -76,21 +73,21 @@
 
   <div class="row text-center">
  <!-- FEATURED WORK IMAGES -->
-    <div class="col-xs-6 col-md-4">
+    <div class="col-xs-6 col-md-4 first">
       <img src="img/campus1.svg" class="img-responsive" alt="">
       <h2>FIRST APP</h2>
       <p>https://github.com/udacity/First/</p>
     </div>
 
       <!-- IMAGE TWO -->
-    <div class="col-xs-6 col-md-4">
+    <div class="col-xs-6 col-md-4 second">
      <img src="img/campus2.svg" class="img-responsive" alt="">
      <h2>SECOND APP</h2>
      <p>https://github.com/udacity/Second/</p>
     </div>
 
      <!-- IMAGE THREE -->
-    <div class="col-xs-6 col-md-4">
+    <div class="col-xs-6 col-md-4 third">
      <img src="img/campus3.svg" class="img-responsive" alt="">
      <h2>THIRD APP</h2>
      <p>https://github.com/udacity/Third/</p>
@@ -141,7 +138,11 @@
 
 <script>  
   $(function(){
+
+   // using the .carousel class 
   $('.carousel').carousel({
+  
+  // how long it takes for image to change
   interval: 4000
     });
 });
