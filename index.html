@@ -15,6 +15,7 @@
   <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
+<a href="#" class="goback">Back to top</a>
  <div class="container">
  <!-- ROW -->
     <div class="row header">
@@ -147,7 +148,29 @@
   interval: 4000
     });
 });
+    $(document).ready(function(){
+      var button = $('.goback');
+      button.on('click', function(){
+        $('html,body').animate({
+          scrollTop: 0
+        }, 600);
+      return false; 
+      });
+      $(window).on('scroll', function(){
+      var init = $(this);
+      var height = init.height();
+      var top = init.scrollTop(); 
 
+      if (top > height) {
+        if ( !button.is(':visible')) {
+          button.show();
+        }
+      }else {
+        button.hide();
+      }
+    });
+
+  });
 
 </script>
 
