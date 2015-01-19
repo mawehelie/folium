@@ -6,6 +6,16 @@ body {
 
 }
 
+.goback {
+    display: none;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background: blue;
+    padding: 20px;
+    color: white;
+}
+
 /* Media Query for Mobile Phones */
 @media screen and (max-width: 640px) {
 
