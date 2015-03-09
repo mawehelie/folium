@@ -7,13 +7,18 @@ body {
 }
 
 .goback {
-    display: none;
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    background: rgb(204, 70, 33);
-    padding: 20px;
-    color: white;
+   background: #f26c4f url(images/sprite.png) 10px -55px no-repeat;
+    border-radius: 3px 3px 0 0;
+    bottom: 0;
+    /*display: none;*/
+    height: 40px;
+    position: fixed;
+    right: 20px;
+    width: 50px;
+}
+
+.goback {
+	 background-color: #76c5ad;
 }
 
 /* Media Query for Mobile Phones */
