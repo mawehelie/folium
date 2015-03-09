@@ -7,7 +7,7 @@ body {
 }
 
 .goback {
-   background: #f26c4f url(images/sprite.png) 10px -55px no-repeat;
+   background: #f26c4f;
     border-radius: 3px 3px 0 0;
     bottom: 0;
     /*display: none;*/
