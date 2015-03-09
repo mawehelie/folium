@@ -7,7 +7,7 @@ body {
 }
 
 .goback {
-   background: #f26c4f;
+   background: #f26c4f url(http://javascriptissexy.com/wp-content/themes/richofstanley/images/sprite.png) 10px -55px no-repeat;
     border-radius: 3px 3px 0 0;
     bottom: 0;
     /*display: none;*/
