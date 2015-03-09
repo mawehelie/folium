@@ -17,10 +17,6 @@ body {
     width: 50px;
 }
 
-.goback {
-	 background-color: #76c5ad;
-}
-
 /* Media Query for Mobile Phones */
 @media screen and (max-width: 640px) {
 
