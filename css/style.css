@@ -19,8 +19,8 @@ body {
 
 .initial {
     display:block;
-    width:100px;
-    height:100px;
+    width:128px;
+    height:128px;
     line-height:100px;
     border: 2px solid #f8981c;
     border-radius: 50%;
