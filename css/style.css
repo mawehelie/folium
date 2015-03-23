@@ -17,6 +17,20 @@ body {
     width: 50px;
 }
 
+.initial {
+    display:block;
+    width:100px;
+    height:100px;
+    line-height:100px;
+    border: 2px solid #f8981c;
+    border-radius: 50%;
+    color:#f8981c;
+    text-align:center;
+    font-family: 'Droid Serif', serif;
+	font-size:36px;
+	letter-spacing: 5px;
+    }
+
 /* Media Query for Mobile Phones */
 @media screen and (max-width: 640px) {
 
